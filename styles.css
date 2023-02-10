@@ -250,9 +250,10 @@ hr {
     font-size: 1.2em;
 }
 
-.contact-col>figcaption {
-    justify-content: center;
+.picture-contact>figcaption {
+    text-align: center;
     display: flex;
+    margin-left: 175px;
 }
 
 .blog-container {
