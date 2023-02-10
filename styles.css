@@ -396,6 +396,11 @@ hr {
         margin-top: 34px;
         width: 90%;
     }
+    .picture-contact>figcaption {
+        text-align: center;
+        display: flex;
+        margin-left: 380px;
+    }
 }
 
 @media only screen and (min-width: 990px) {
