@@ -123,11 +123,16 @@ body {
 
 .role-title {
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: #F8F9FA;
     text-align: center;
+}
+
+.role-title>h1{
+    font-size:4em;
+    width: 400px;
 }
 
 .title {
