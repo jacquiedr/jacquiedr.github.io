@@ -10,6 +10,8 @@ body {
     font-family: 'DM Sans', sans-serif;
     overflow-x: hidden;
     background-color: #EAF4F4;
+    font-weight: normal;
+    font-size: 1rem;
 }
 
 .bg-img {
@@ -82,7 +84,7 @@ body {
     position: absolute;
     width: auto;
     padding: 30px;
-    font-size: 1em;
+    font-size: 20px;
     margin-top: -20px;
 }
 
@@ -102,6 +104,7 @@ body {
 .about {
     max-width: 900px;
     color: #222222;
+    font-size: 1em;
 }
 .welcome-text {
     padding: 40px;
@@ -132,17 +135,15 @@ body {
 }
 
 .role-title>h1{
-    font-size:3em;
     width: 400px;
 }
 
-.title{
+.title {
     padding-bottom: 40px;
     color: #212529;
 }
 
 .about-title>h1{
-    font-size: 2em;
     font-weight: bold;
 }
 
@@ -150,10 +151,6 @@ body {
     padding: 20px;
     margin-top: 60px;
     text-align: center;
-}
-
-.about-content>p{
-    font-size: 1em;
 }
 
 button {
@@ -236,7 +233,6 @@ hr {
 
 .blog-posts>ul{
     list-style-type: "-";
-    font-size: 1.2em;
 }
 
 .blog-posts {
@@ -246,7 +242,6 @@ hr {
 }
 
 .blog-post {
-    font-size: 1.3em;
     padding: 15px;
 }
 
@@ -256,10 +251,6 @@ hr {
 
 .blog-row {
     display: flex;
-}
-
-.post {
-    font-size: 1.2em;
 }
 
 .picture-contact>figcaption {
@@ -350,7 +341,6 @@ hr {
 
 .CV-timeline-heading-duration {
     display: block;
-    font-size: 0.8em;
     color: #6f6f6f;
 }
 
@@ -385,66 +375,18 @@ hr {
     }
 }
 /* For phones/tablets */
-@media only screen and (min-width: 200px) and (max-width: 990px) {
+@media only screen and (max-width: 990px) {
     .navbar-nav {
         text-align: center;
     }
-
-    .navbar-toggler{
-        font-size: 60px;
-    }
-
-    .nav-item{
-        font-size: 45px;
-    }
-
-    .navbar-collapse {
-        color:#6B9080;
-    }
-    .navbar-brand{
-        font-size: 3.3em;
-        padding: 25px;
-        padding-top: 25px;
-    }
-    .role-title>h1{
-        font-size: 80px;
-        text-align: center;
-    }
     .role-title {
-        top: 27%;
-        left: 50%;
+        top: 35%;
+        left: 45%;
     }
     .about-content>p{
-        font-size: 3em;
         padding: 20px;
     }
-    .CV-job-timeline-item {
-        font-size: 2.5em;
-    }
-    .title {
-        font-size: 80px;
-    }
-    .about-title {
-        font-size: 3em;
-    }
-    .about-title>h5{
-        font-size: 1em;
-    }
-    .btn {
-        font-size: 2.5em;
-    }
-    .welcome-text {
-        margin: 40px;
-    }
-    .about>h1 {
-        font-size: 80px;
-    }
-    .about>h4 {
-        font-size: 50px;
-    }
-    .CV-timeline-heading {
-        font-size: 3.5em;
-    }
+
     .contact-col {
         width: 100%;
         text-align: center;
@@ -453,33 +395,16 @@ hr {
         width: 100%;
         text-align: center;
         padding-top: 50px;
-        padding: 25px;
-        font-size: 2em;
-    }
-    .contact-text>h1,h2,h3,h4 {
-        font-size: 1.5em;
     }
     .blog-container {
         margin: auto;
         margin-top: 34px;
         width: 90%;
     }
-    .blog-posts>ul{
-        font-size: 30px;
-    }
-    .content>h2 {
-        font-size: 50px;
-    }
     .picture-contact>figcaption {
         text-align: center;
         display: flex;
         margin-left: 380px;
-    }
-    footer{
-        font-size: 2.5em;
-    }
-    .post{
-        font-size: 3.1em;
     }
 }
 
